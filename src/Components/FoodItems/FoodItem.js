@@ -14,7 +14,7 @@ const FoodItemsList = [
 const FoodProducts = FoodItemsList.map(
   (element)=>{
     return(
-      <Food foodName = {element.foodName} price = {element.price}>
+      <Food viaCart = {false} foodName = {element.foodName} price = {element.price}>
       </Food>
     )
   }
